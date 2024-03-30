@@ -34,3 +34,9 @@ npx tailwindcss init
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#Installing the dependency
+npm install @reduxjs/toolkit react-redux react-router-dom react-icons react-chartjs-2 chart.js daisyui axios react-hot-toast @tailwindcss/line-clamp
+
+#To sort the import 
+npm i eslint-plugin-simple-import-sort
