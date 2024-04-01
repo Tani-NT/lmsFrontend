@@ -22,13 +22,13 @@ npm run dev
 ###Setup instruction for Tailwindcss
 
 1.Install tailwindcss
-npm install -D tailwindcss
+npm install -D tailwindcss postcss autoprefixer
 
 2.Create tailwind config file
 npx tailwindcss init
 
 3.Add file extensions in the tailwind config file in the content
-"./src/**/*.{html,js,jsx,ts,tsx}"
+content: ["./index.html ,./src/**/*.{html,js,jsx,ts,tsx}"]
 
 4.Add the tailwind directives
 @tailwind base;
